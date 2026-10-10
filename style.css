@@ -2,6 +2,19 @@
    Campus Ledger — Modern CSS Architecture (Dark & Light Theme)
    ========================================================================== */
 
+.site-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 16px;
+}
+
+.site-logo {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+}
+
 :root {
   --font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
   
